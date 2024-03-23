@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    background-color: #1006a9;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    gap: 10px;
+}
+
+header div {
+  font-size: 3em;
+}
+
+#hero {
+    background-image: url('./img/school-bus-concept-illustration/7827298.jpg');
+    background-size: 80%;
+    mask-image: linear-gradient(white 80%, transparent);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    padding: 100px 100px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 4em;
+    color: #7b96ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 
+                -1px -1px 0 #FFF,  
+                 1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                 1px  1px 0 #FFF;
+}
+
+#hero h1 {
+  font-size: 1.7em;
+  color: #7b96ff;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 
+                -1px -1px 0 #FFF,  
+                 1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                 1px  1px 0 #FFF;
+}
+
+#hero p {
+    font-size: 1.5em;
+    color: #1006a9;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+                -1px -1px 0 #FFF,  
+                 1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                 1px  1px 0 #FFF;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1006a9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d1deff;
+    color: #0c00da;
+}
+
+#beneficios {
+    display: inline-flex;
+    gap: 10px;
+    padding: 100px 0;
+    text-align: center;
+    margin: 30px;
+    text-align: center;
+    border: 2px solid #1006a9;
+    border-radius: 10px;
+}
+
+.benefit img {
+    width: 100px;
+}
+
+.benefit h3 {
+  font-size: 2em;
+  color: #1f20ff;
+  font-weight: bold;
+}
+.benefit p {
+  text-align: center;
+  text-justify: inter-word;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#servicios {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contacto {
+    padding: 100px 0;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+}
+
+footer {
+    background-color: #1006a9;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

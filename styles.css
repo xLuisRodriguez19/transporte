@@ -10,19 +10,6 @@ body {
     padding: 0 20px;
 }
 
-header {
-    display: flex;
-    background-color: #1006a9;
-    color: #fff;
-    padding: 20px 20px;
-    text-align: center;
-    gap: 10px;
-}
-
-header div {
-  font-size: 3em;
-}
-
 #hero {
     background-image: url('./img/school-bus-concept-illustration/7827298.jpg');
     background-size: 80%;
@@ -138,4 +125,136 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+#hero h2 {
+    font-size: 2em;
+    color: #7b96ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 
+                -1px -1px 0 #FFF,  
+                    1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                    1px  1px 0 #FFF;
+}
+
+#hero h1 {
+    font-size: 1.3em;
+    color: #7b96ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 
+                -1px -1px 0 #FFF,  
+                    1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                    1px  1px 0 #FFF;
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: #1006a9;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+                -1px -1px 0 #FFF,  
+                    1px -1px 0 #FFF,
+                -1px  1px 0 #FFF,
+                    1px  1px 0 #FFF;
+}
+
+#beneficios {
+    display: inline-block;
+    gap: 5px;
+    padding: 50px 0;
+    text-align: center;
+    margin: 30px;
+    text-align: center;
+    border: 2px solid #1006a9;
+    border-radius: 10px;
+}
+
+.benefit img {
+    width: 75px;
+}
+
+.benefit h3 {
+    font-size: 1.5em;
+    color: #1f20ff;
+    font-weight: bold;
+}
+.benefit p {
+    text-align: center;
+    text-justify: inter-word;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+}
+
+  @media only screen and (max-width: 599px) {
+    #hero h2 {
+        font-size: 2.3em;
+        color: #7b96ff;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-shadow: 
+                    -1px -1px 0 #FFF,  
+                     1px -1px 0 #FFF,
+                    -1px  1px 0 #FFF,
+                     1px  1px 0 #FFF;
+    }
+    
+    #hero h1 {
+      font-size: 1.7em;
+      color: #7b96ff;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-shadow: 
+                    -1px -1px 0 #FFF,  
+                     1px -1px 0 #FFF,
+                    -1px  1px 0 #FFF,
+                     1px  1px 0 #FFF;
+    }
+    
+    #hero p {
+        font-size: 1em;
+        color: #1006a9;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 
+                    -1px -1px 0 #FFF,  
+                     1px -1px 0 #FFF,
+                    -1px  1px 0 #FFF,
+                     1px  1px 0 #FFF;
+    }
+
+    #beneficios {
+        display: inline-block;
+        gap: 5px;
+        padding: 50px 0;
+        text-align: center;
+        margin: 30px;
+        text-align: center;
+        border: 2px solid #1006a9;
+        border-radius: 10px;
+    }
+
+    .benefit img {
+        width: 50px;
+    }
+    
+    .benefit h3 {
+      font-size: 1.5em;
+      color: #1f20ff;
+      font-weight: bold;
+    }
+    .benefit p {
+      text-align: center;
+      text-justify: inter-word;
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: bold;
+    }
 }

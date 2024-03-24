@@ -194,8 +194,11 @@ footer {
 }
 
   @media only screen and (max-width: 599px) {
+    #hero {
+        padding: 100px 50px;
+    }
     #hero h2 {
-        font-size: 2.3em;
+        font-size: 1.9em;
         color: #7b96ff;
         margin-bottom: 20px;
         font-weight: bold;
@@ -207,7 +210,7 @@ footer {
     }
     
     #hero h1 {
-      font-size: 1.7em;
+      font-size: 1.2em;
       color: #7b96ff;
       margin-bottom: 20px;
       font-weight: bold;
@@ -219,7 +222,7 @@ footer {
     }
     
     #hero p {
-        font-size: 1em;
+        font-size: .8em;
         color: #1006a9;
         font-weight: bold;
         text-align: center;
@@ -234,7 +237,6 @@ footer {
         display: inline-block;
         gap: 5px;
         padding: 50px 0;
-        text-align: center;
         margin: 30px;
         text-align: center;
         border: 2px solid #1006a9;
